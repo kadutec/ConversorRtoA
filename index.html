@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conversor</h1>
+    <div>
+        <h3>Converter Número para Romano</h3>
+        <label for="numeroInput">Insira um número (1 a 3999): </label>
+        <input type="text" id="numeroInput">
+        <button onclick="converterNumeroRomano()">Converter</button>
+        <p id="numeroRomanoResultado"></p>
+    </div>   
+    <div>
+        <h3>Converter Romano para Número</h3>
+        <label for="romanoInput">Insira um algarismo romano: </label>
+        <input type="text" id="romanoInput">
+        <button onclick="converterRomanoParaNumero()">Converter</button>
+        <p id="romanoNumeroResultado"></p>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
